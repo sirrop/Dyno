@@ -1,0 +1,77 @@
+:root {
+        --background-color: white;
+        --text-color: #151515;
+        --color-gray: lightgray;
+        --color-red: red;
+      }
+
+      .dyno-invisible {
+        background-color: var(--color-gray);
+        color: var(--color-gray);
+      }
+      
+      .dyno-visible {
+      				background-color: var(--background-color);
+      				color: var(--color-red);
+      }
+      
+      #menu-button {
+      				position: fixed;
+      				top: 95%;
+      				left: 95%;
+      }
+      
+      #menu-button div {
+      				width: 25px;
+      				height: 5px;
+      				background-color: lightblue;
+      }
+      
+      #line1 {
+      				position: relative;
+      				top: 3px;
+      }
+      
+      #line2 {
+      				position: relative;
+      				top: 6px;
+      }
+      
+      #utilities {
+      				position: fixed;
+      				top: 87%;
+      				left: 85%;
+      }
+      
+      .utils-hiding {
+      				display: none;
+      }
+      
+      .utils-showing {
+      				display: block;
+      }
+      
+      .hiding {
+      				display: none;
+      }
+
+				
+      main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+      
+      @media screen and (min-width: 1000px) {
+      				main {
+      								width: 900px;
+								}
+      }
+      
+      @media screen and (max-width: 810px) {
+      				main {
+      								width: 90vw;
+      				}
+      }
